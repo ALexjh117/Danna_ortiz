@@ -1,0 +1,1190 @@
+/* General Styles */
+body {
+    background-image: url("img/cristofer-maximilian-uQDRDqpYJHI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Texto blanco para mayor contraste */
+}
+
+/* Header */
+header {
+    /* Fondo semitransparente para el encabezado */
+    padding: 20px;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    display: flex;
+    justify-content: flex-end; /* Alinear a la derecha */
+    list-style: none;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.nav-menu a:hover {
+    color: #ffcc00; /* Cambio de color en hover */
+}
+
+/* Profile Container */
+.profile-container {
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    margin-top: 20px;
+}
+
+.imagen {
+    width: 160px; /* Tamaño de la imagen */
+    height: 190px; /* Tamaño de la imagen */
+    border-radius: 40%; /* Hacer la imagen circular */
+    border: 5px solid #fff; /* Borde blanco */
+    margin-right: 20px;
+}
+
+.nombre {
+    font-size: 24px;
+    margin: 0;
+    animation: pulse 1.5s infinite alternate; /* Añadir efecto de pulsación */
+    text-shadow: 0 0 10px blue, 0 0 20px blue; /* Sombra de texto azul */
+}
+
+/* Animación de pulsación */
+@keyframes pulse {
+    0% {
+        text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px #fff;
+    }
+    100% {
+        text-shadow: 0 0 20px blue, 0 0 30px #fff, 0 0 40px blue;
+    }
+}
+
+/* Main Styles */
+main {
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+/* Section Headings */
+section h2 {
+    color: #ffcc00; /* Color dorado para los encabezados */
+    margin-top: 0;
+    text-align: center;
+    animation: pulse 1.5s infinite alternate; /* Añadir efecto de pulsación */
+    text-shadow: 0 0 10px blue, 0 0 20px blue; /* Sombra de texto azul */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Blockquote */
+blockquote {
+    font-style: italic;
+    color: #ddd; /* Color gris claro para citas */
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #ffcc00;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+/* Navigation Menu */
+.nav-menu {
+    display: flex;
+    justify-content: flex-end; /* Alinear a la derecha */
+    list-style: none;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.nav-menu li {
+    margin: 0 10px; /* Espacio entre botones */
+}
+
+.nav-menu a {
+    display: inline-block; /* Permite padding y border */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px; /* Espaciado interno para el botón */
+    border: 2px solid #ffcc00; /* Borde dorado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s; /* Transiciones suaves */
+}
+
+/* Efecto Hover */
+.nav-menu a:hover {
+    background-color: rgba(255, 204, 0, 0.2); /* Fondo dorado claro al pasar el ratón */
+    color: blue; /* Cambiar el color del texto al pasar el ratón */
+    text-shadow: 0 0 10px blue, 0 0 20px blue; /* Efecto de luz azul al hacer hover */
+}
+
+/* Navigation Menu */
+.nav-menu {
+    display: flex;
+    justify-content: flex-end; /* Alinear a la derecha */
+    list-style: none;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.nav-menu li {
+    margin: 0 10px; /* Espacio entre botones */
+}
+
+.nav-menu a {
+    display: inline-block; /* Permite padding y border */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px; /* Espaciado interno para el botón */
+    border: 2px solid blue; /* Borde azul */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro para contraste */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Transiciones suaves */
+}
+
+/* Efecto Hover */
+.nav-menu a:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo más oscuro al pasar el ratón */
+    color: #ffcc00; /* Cambiar el color del texto al pasar el ratón */
+    border-color: #ffcc00; /* Cambiar el borde a dorado al hacer hover */
+    text-shadow: 0 0 10px blue, 0 0 20px blue; /* Efecto de luz azul al hacer hover */
+}
+
+/* Navigation Menu */
+.nav-menu {
+    display: flex;
+    justify-content: flex-end; /* Alinear a la derecha */
+    list-style: none;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.nav-menu li {
+    margin: 0 10px; /* Espacio entre botones */
+}
+
+.nav-menu a {
+    display: inline-block; /* Permite padding y border */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px; /* Espaciado interno para el botón */
+    border: 2px solid blue; /* Borde azul */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: blue; /* Fondo azul */
+    box-shadow: 0 4px 8px rgba(0, 0, 255, 0.5); /* Sombra azul */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+}
+
+/* Efecto Hover */
+.nav-menu a:hover {
+    background-color: #00aaff; /* Fondo más claro al pasar el ratón */
+    color: #fff; /* Cambiar el color del texto al pasar el ratón */
+    border-color: #ffcc00; /* Cambiar el borde a dorado al hacer hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 255, 0.7); /* Sombra más intensa al hacer hover */
+    text-shadow: 0 0 10px blue, 0 0 20px blue; /* Efecto de luz azul al hacer hover */
+}
+
+
+/* Section Headings */
+section h2 {
+    background-color: rgba(0, 0, 128, 0.7); /* Fondo azul marino suave */
+    color: #fff; /* Color del texto blanco */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-top: 0; /* Sin margen superior */
+    text-align: center; /* Centrar encabezados */
+    box-shadow: 0 4px 8px rgba(0, 0, 255, 0.5); /* Sombra azul */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+}
+
+/* Efecto Hover para Encabezados */
+section h2:hover {
+    background-color: rgba(0, 0, 128, 0.9); /* Fondo más oscuro al pasar el ratón */
+    box-shadow: 0 8px 16px rgba(0, 0, 255, 0.7); /* Sombra más intensa al hacer hover */
+    text-shadow: 0 0 10px blue, 0 0 20px blue; /* Efecto de luz azul al hacer hover */
+}
+
+
+/* Section Headings */
+section h2 {
+    background: linear-gradient(135deg, rgba(173, 216, 230, 0.8), rgba(255, 215, 0, 0.6)); /* Gradiente azul claro a amarillo */
+    color: #fff; /* Color del texto blanco */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-top: 0; /* Sin margen superior */
+    text-align: center; /* Centrar encabezados */
+    box-shadow: 0 4px 8px rgba(0, 0, 255, 0.5); /* Sombra azul */
+    transition: background 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+}
+
+/* Efecto Hover para Encabezados */
+section h2:hover {
+    background: linear-gradient(135deg, rgba(135, 206, 250, 0.9), rgba(255, 255, 0, 0.7)); /* Gradiente más claro al pasar el ratón */
+    box-shadow: 0 8px 16px rgba(0, 0, 255, 0.7); /* Sombra más intensa al hacer hover */
+    text-shadow: 0 0 10px blue, 0 0 20px blue; /* Efecto de luz azul al hacer hover */
+}
+
+
+/* Section Headings */
+section h2 {
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.8), rgba(255, 105, 180, 0.8), rgba(128, 0, 128, 0.8)); /* Gradiente amarillo a rosa a morado */
+    color: #fff; /* Color del texto blanco */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-top: 0; /* Sin margen superior */
+    text-align: center; /* Centrar encabezados */
+    box-shadow: 0 4px 8px rgba(255, 0, 255, 0.5); /* Sombra morada */
+    transition: background 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+}
+
+/* Efecto Hover para Encabezados */
+section h2:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 0, 0.9), rgba(255, 192, 203, 0.9), rgba(255, 0, 255, 0.9)); /* Gradiente más claro al pasar el ratón */
+    box-shadow: 0 8px 16px rgba(255, 0, 255, 0.7); /* Sombra más intensa al hacer hover */
+}
+
+/* Botones en el Menú de Navegación */
+.nav-menu a {
+    display: inline-block; /* Permite padding y border */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px; /* Espaciado interno para el botón */
+    border: 2px solid transparent; /* Borde transparente para el efecto de fondo */
+    border-radius: 5px; /* Bordes redondeados */
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.6), rgba(255, 105, 180, 0.6), rgba(128, 0, 128, 0.6)); /* Gradiente */
+    transition: background 0.3s, color 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+}
+
+/* Efecto Hover para los Botones */
+.nav-menu a:hover {
+    background: linear-gradient(135deg, rgba(255, 255, 0, 0.8), rgba(255, 192, 203, 0.8), rgba(255, 0, 255, 0.8)); /* Gradiente más claro al pasar el ratón */
+    color: #fff; /* Cambiar a blanco */
+    box-shadow: 0 4px 8px rgba(255, 0, 255, 0.7); /* Sombra más intensa al hacer hover */
+}
+
+
+.inicio-section {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Degradado atractivo */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 30px;
+    margin: 20px 0;
+    animation: fadeIn 1s; /* Animación de entrada */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+}
+
+.inicio-title {
+    color: #ffffff; /* Blanco */
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra de texto negra */
+    font-size: 2em; /* Tamaño de texto aumentado */
+    animation: pulse 1.5s infinite alternate; /* Efecto de pulsación */
+}
+
+.inicio-text {
+    color: #333; /* Texto oscuro para mejor legibilidad */
+    font-size: 1.2em; /* Tamaño de texto aumentado */
+    line-height: 1.6; /* Mayor espacio entre líneas */
+    text-align: center; /* Centrar texto */
+}
+
+/* Animación de aparición */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Efecto de pulsación */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+.brillo-section {
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Degradado morado a azul */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 30px;
+    margin: 20px 0;
+    animation: fadeIn 1s; /* Animación de entrada */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+}
+
+.brillo-title {
+    color: #ffffff; /* Blanco */
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra de texto negra */
+    font-size: 2em; /* Tamaño de texto aumentado */
+    animation: pulse 1.5s infinite alternate; /* Efecto de pulsación */
+}
+
+.brillo-text {
+    color: #ffffff; /* Texto blanco para mayor contraste */
+    font-size: 1.2em; /* Tamaño de texto aumentado */
+    line-height: 1.6; /* Mayor espacio entre líneas */
+    text-align: center; /* Centrar texto */
+}
+
+.brillo-list {
+    list-style-type: none; /* Eliminar viñetas */
+    padding: 0; /* Sin padding */
+}
+
+.brillo-list li {
+    margin: 10px 0; /* Espacio entre elementos */
+    font-size: 1.1em; /* Tamaño de texto aumentado */
+    text-align: center; /* Centrar texto */
+    color: #ffcc00; /* Color dorado */
+}
+
+/* Animación de aparición */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Efecto de pulsación */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+
+.brillo-section {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Degradado de coral a amarillo */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    animation: fadeIn 1s; /* Animación de entrada */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    position: relative; /* Para el posicionamiento de los corazones */
+}
+
+.brillo-title {
+    color: #ffffff; /* Blanco */
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra de texto negra */
+    font-size: 2em; /* Tamaño de texto aumentado */
+    animation: pulse 1.5s infinite alternate; /* Efecto de pulsación */
+}
+
+.brillo-text {
+    color: #ffffff; /* Texto blanco para mayor contraste */
+    font-size: 1.2em; /* Tamaño de texto aumentado */
+    line-height: 1.6; /* Mayor espacio entre líneas */
+    text-align: center; /* Centrar texto */
+}
+
+.brillo-list {
+    list-style-type: none; /* Eliminar viñetas */
+    padding: 0; /* Sin padding */
+}
+
+.brillo-list li {
+    margin: 10px 0; /* Espacio entre elementos */
+    font-size: 1.1em; /* Tamaño de texto aumentado */
+    text-align: center; /* Centrar texto */
+    color: #ffcc00; /* Color dorado */
+}
+
+.hearts {
+    text-align: center; /* Centrar corazones */
+    font-size: 2em; /* Tamaño de corazones */
+    margin-top: 15px; /* Espacio arriba de los corazones */
+}
+
+/* Animación de aparición */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Efecto de pulsación */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+.mensajes-section {
+    background: linear-gradient(135deg, #6a82fb, #fc5c7d); /* Degradado de azul a rosa */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    position: relative; /* Para el posicionamiento de los corazones */
+}
+
+.mensajes-title {
+    color: #ffffff; /* Blanco */
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra de texto negra */
+    font-size: 2em; /* Tamaño de texto aumentado */
+    animation: pulse 1.5s infinite alternate; /* Efecto de pulsación */
+}
+
+.mensajes-quote {
+    font-style: italic;
+    color: #ffcc00; /* Color dorado */
+    text-align: center; /* Centrar texto */
+    margin: 15px 0; /* Espacio arriba y abajo */
+    padding: 15px;
+    border-left: 5px solid #ffffff; /* Borde izquierdo blanco */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semitransparente */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.mensajes-text {
+    color: #ffffff; /* Texto blanco para mayor contraste */
+    font-size: 1.2em; /* Tamaño de texto aumentado */
+    line-height: 1.6; /* Mayor espacio entre líneas */
+    text-align: center; /* Centrar texto */
+}
+
+.hearts {
+    text-align: center; /* Centrar corazones */
+    font-size: 2em; /* Tamaño de corazones */
+    margin-top: 15px; /* Espacio arriba de los corazones */
+}
+
+/* Efecto de pulsación */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+
+.dedicatoria-section {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Degradado de tonos cálidos */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    position: relative; /* Para el posicionamiento de los corazones */
+}
+
+.dedicatoria-title {
+    color: #ffffff; /* Blanco */
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra de texto negra */
+    font-size: 2em; /* Tamaño de texto aumentado */
+    animation: pulse 1.5s infinite alternate; /* Efecto de pulsación */
+}
+
+.dedicatoria-section p {
+    color: #ffffff; /* Texto blanco para mayor contraste */
+    font-size: 1.2em; /* Tamaño de texto aumentado */
+    line-height: 1.6; /* Mayor espacio entre líneas */
+    text-align: center; /* Centrar texto */
+}
+
+.hearts {
+    text-align: center; /* Centrar corazones */
+    font-size: 2em; /* Tamaño de corazones */
+    margin-top: 15px; /* Espacio arriba de los corazones */
+}
+
+/* Efecto de pulsación */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+
+.suenos-section {
+    background: linear-gradient(135deg, #6a82fb, #fc5c7d); /* Degradado de tonos morados y rosas */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
+}
+
+.suenos-title {
+    color: #ffffff; /* Blanco */
+    text-align: center;
+    font-size: 2em; /* Tamaño de texto aumentado */
+    margin-bottom: 15px; /* Espacio inferior */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+.suenos-section p {
+    color: #ffffff; /* Texto blanco para mayor contraste */
+    font-size: 1.2em; /* Tamaño de texto aumentado */
+    text-align: center; /* Centrar texto */
+}
+
+.suenos-list {
+    list-style-type: none; /* Eliminar viñetas */
+    padding: 0; /* Eliminar padding */
+    text-align: center; /* Centrar lista */
+}
+
+.suenos-list li {
+    font-size: 1.2em; /* Tamaño de texto aumentado */
+    color: #ffffff; /* Color del texto */
+    margin: 10px 0; /* Espaciado entre elementos */
+    animation: fadeIn 0.5s ease; /* Animación de entrada */
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.brillo-section {
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0); /* Degradado de colores suaves */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
+}
+
+.brillo-title {
+    color: #ffffff; /* Blanco */
+    text-align: center;
+    font-size: 2em; /* Tamaño de texto aumentado */
+    margin-bottom: 15px; /* Espacio inferior */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+.brillo-text {
+    color: #ffffff; /* Texto blanco para mayor contraste */
+    font-size: 1.2em; /* Tamaño de texto aumentado */
+    text-align: center; /* Centrar texto */
+}
+
+.brillo-list {
+    list-style-type: none; /* Eliminar viñetas */
+    padding: 0; /* Eliminar padding */
+    text-align: center; /* Centrar lista */
+}
+
+.brillo-list li {
+    font-size: 1.2em; /* Tamaño de texto aumentado */
+    color: #ffffff; /* Color del texto */
+    margin: 10px 0; /* Espaciado entre elementos */
+    animation: fadeIn 0.5s ease; /* Animación de entrada */
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hearts {
+    text-align: center; /* Centrar corazones */
+    font-size: 2em; /* Tamaño de los corazones */
+    margin-top: 20px; /* Espacio superior */
+}
+
+
+.mensajes-section {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4); /* Degradado de colores suaves */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidad */
+}
+
+.mensajes-title {
+    color: #ffffff; /* Blanco */
+    text-align: center;
+    font-size: 2em; /* Tamaño de texto aumentado */
+    margin-bottom: 15px; /* Espacio inferior */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+.mensajes-quote {
+    font-style: italic; /* Cursiva para la cita */
+    color: #ffffff; /* Texto blanco para mayor contraste */
+    font-size: 1.5em; /* Tamaño de texto aumentado */
+    text-align: center; /* Centrar texto */
+    margin: 15px 0; /* Espacio alrededor */
+}
+
+.mensajes-text {
+    color: #ffffff; /* Texto blanco para mayor contraste */
+    font-size: 1.2em; /* Tamaño de texto aumentado */
+    text-align: center; /* Centrar texto */
+    margin: 10px 0; /* Espacio entre párrafos */
+}
+
+.hearts {
+    text-align: center; /* Centrar corazones */
+    font-size: 2em; /* Tamaño de los corazones */
+    margin-top: 20px; /* Espacio superior */
+}
+
+
+.playlist-section {
+    background: linear-gradient(180deg, #ffafbd, #ffc3a0); /* Degradado suave */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra para profundidad */
+}
+
+.playlist-title {
+    color: #333; /* Color oscuro para el título */
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8); /* Sombra suave */
+}
+
+.playlist-text {
+    color: #555; /* Color gris oscuro para el texto */
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.playlist-list {
+    list-style-type: none; /* Quitar viñetas */
+    padding: 0;
+}
+
+.playlist-list li {
+    margin: 15px 0; /* Espacio entre canciones */
+    text-align: center; /* Centrar texto */
+    font-size: 1.1em; /* Tamaño de texto */
+    color: #333; /* Color oscuro */
+}
+
+audio {
+    margin-left: 10px; /* Espacio a la izquierda del reproductor */
+}
+
+
+.playlist-section {
+    background: linear-gradient(180deg, #ffafbd, #ffc3a0); /* Degradado suave */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra para profundidad */
+}
+
+.playlist-title {
+    color: #333; /* Color oscuro para el título */
+    text-align: center;
+    font-size: 2.5em; /* Tamaño más grande */
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.8); /* Sombra suave */
+}
+
+.playlist-text {
+    color: #555; /* Color gris oscuro para el texto */
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.playlist-list {
+    list-style-type: none; /* Quitar viñetas */
+    padding: 0;
+}
+
+.playlist-list li {
+    margin: 15px 0; /* Espacio entre canciones */
+    text-align: center; /* Centrar texto */
+    font-size: 1.1em; /* Tamaño de texto */
+    color: #333; /* Color oscuro */
+}
+
+audio {
+    margin-left: 10px; /* Espacio a la izquierda del reproductor */
+}
+
+.music-message {
+    font-style: italic; /* Estilo itálico */
+    color: #444; /* Color gris */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em; /* Tamaño de texto */
+}
+
+.playlist-list li {
+    display: flex; /* Usar flexbox para alinear */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    margin: 15px 0; /* Espacio entre canciones */
+    font-size: 1.1em; /* Tamaño de texto */
+    color: #333; /* Color oscuro */
+}
+
+.song-image {
+    width: 50px; /* Tamaño de la imagen */
+    height: 50px; /* Tamaño de la imagen */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-right: 10px; /* Espacio a la derecha */
+}
+
+.music-message {
+    font-style: italic; /* Estilo itálico */
+    color: #444; /* Color gris */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em; /* Tamaño de texto */
+}
+
+.playlist-section {
+    background-color: #f9f9f9; /* Color de fondo suave */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    text-align: center; /* Centra el texto */
+}
+
+.cat-image-container {
+    margin: 20px 0; /* Espaciado arriba y abajo */
+    border: 2px solid #007BFF; /* Color de borde */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Para recortar los bordes redondeados */
+    display: inline-block; /* Para centrar */
+}
+
+.cat-image {
+    width: 100%; /* Imagen ocupa todo el ancho */
+    height: auto; /* Mantiene la proporción */
+    transition: transform 0.3s; /* Transición suave al pasar el ratón */
+}
+
+.cat-image-container:hover .cat-image {
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+}
+
+.playlist-list {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin espaciado interno */
+}
+
+.song-image {
+    width: 50px; /* Tamaño de las imágenes de las canciones */
+    height: auto; /* Mantiene la proporción */
+    vertical-align: middle; /* Alinea verticalmente */
+}
+
+.music-message {
+    margin-top: 20px; /* Espacio arriba */
+    font-style: italic; /* Estilo cursivo */
+    color: #555; /* Color de texto más suave */
+}
+
+
+
+
+.animales-section {
+    background-color: #f9f9f9; /* Color de fondo suave */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    text-align: center; /* Centra el texto */
+}
+
+.cat-image-container {
+    margin: 20px 0; /* Espaciado arriba y abajo */
+    border: 2px solid #007BFF; /* Color de borde */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Para recortar los bordes redondeados */
+    display: inline-block; /* Para centrar */
+}
+
+.cat-image {
+    width: 100%; /* Imagen ocupa todo el ancho */
+    height: auto; /* Mantiene la proporción */
+    transition: transform 0.3s; /* Transición suave al pasar el ratón */
+}
+
+.cat-image-container:hover .cat-image {
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+}
+
+.animales-list {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin espaciado interno */
+}
+
+.animales-title {
+    color: #333; /* Color del título */
+    margin-bottom: 10px; /* Espaciado abajo */
+}
+
+.animales-section p {
+    color: #555; /* Color de texto más suave */
+    margin-bottom: 15px; /* Espacio abajo */
+}
+
+
+.animales-section {
+    background-color: #f9f9f9; /* Color de fondo suave */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    text-align: center; /* Centra el texto */
+}
+
+.cat-image-container {
+    margin: 20px 0; /* Espaciado arriba y abajo */
+    border: 2px solid #007BFF; /* Color de borde */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Para recortar los bordes redondeados */
+    display: inline-block; /* Para centrar */
+}
+
+.cat-image {
+    width: 400px; /* Imagen ocupa todo el ancho */
+    height: 800px; /* Mantiene la proporción */
+    
+}
+
+.cat-image-container:hover .cat-image {
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+}
+
+.animales-list {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin espaciado interno */
+}
+
+.animales-title {
+    color: #333; /* Color del título */
+    margin-bottom: 10px; /* Espaciado abajo */
+}
+
+.animales-section p {
+    color: #555; /* Color de texto más suave */
+    margin-bottom: 15px; /* Espacio abajo */
+}
+
+.flex-box1 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.imagen {
+    width: 170px; /* Tamaño de la imagen */
+    height: 190px; /* Tamaño de la imagen */
+    border-radius: 50%; /* Hacer la imagen circular */
+    border: 5px solid #9b59b6; /* Borde morado */
+    box-shadow: 0 0 10px rgba(155, 89, 182, 0.8); /* Sombra para resaltar */
+    margin-right: 20px;
+    animation: glow 1.5s infinite alternate; /* Animación de brillo */
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px rgba(155, 89, 182, 0.8);
+    }
+    100% {
+        box-shadow: 0 0 20px rgba(155, 89, 182, 1);
+    }
+}
+
+
+header {
+    background: linear-gradient(to right, #9b59b6, #f1c40f); /* Degradado morado a amarillo */
+    padding: 20px; /* Espaciado interno */
+    display: flex; /* Para alinear elementos */
+    justify-content: space-between; /* Distribuir elementos */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.nav-menu {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin espaciado */
+    display: flex; /* Alinear horizontalmente */
+}
+
+.nav-menu li {
+    margin: 0 15px; /* Espaciado entre elementos */
+}
+
+.nav-menu a {
+    text-decoration: none; /* Sin subrayado */
+    color: #fff; /* Texto blanco */
+    font-weight: bold; /* Texto en negrita */
+    transition: color 0.3s; /* Efecto de transición */
+}
+
+.nav-menu a:hover {
+    color: #f39c12; /* Cambiar a un amarillo cuando se pasa el ratón */
+}
+
+.profile-container {
+    display: flex; /* Alinear imagen y nombre */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.nombre {
+    color: #fff; /* Texto blanco */
+    margin-left: 10px; /* Espaciado entre imagen y nombre */
+}
+
+footer {
+    background: linear-gradient(135deg, rgba(255, 255, 0, 0.9), rgba(255, 192, 203, 0.9), rgba(255, 0, 255, 0.9)); /* Gradiente más claro al pasar el ratón */
+    color: #fff; /* Texto blanco */
+    text-align: center; /* Centrar texto */
+    padding: 15px; /* Espaciado interno */
+    position: relative; /* Para efectos adicionales si es necesario */
+    margin-top: 20px; /* Separación del contenido superior */
+    font-family: 'Arial', sans-serif; /* Fuente */
+}
+
+footer p {
+    margin: 0; /* Sin margen */
+    font-size: 1.1em; /* Tamaño de fuente */
+}
+
+footer:hover {
+    background: #edeaee; /* Cambio de color en hover */
+    transition: background 0.3s; /* Transición suave */
+}
+
+.flex-box1{
+    display: flex;
+}
+
+.contenido-derecho {
+    position: fixed;
+    top: 80px; 
+    right: 25px; 
+    display: flex;
+    align-items: center; 
+}
+
+.imagenburbuja {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    margin-right: 20px; 
+}
+
+
+.profile-container {
+    display: flex;
+    align-items: center; 
+}
+.imagen {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    margin-right: 20px; 
+}
+
+.contenido-derecho {
+    position: fixed; 
+    top: 80px; 
+    right: 25px; 
+    display: flex;
+    align-items: center; 
+}
+
+.imagenburbuja {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    margin-right: 20px; 
+
+    body {
+        background-image: url("img/cristofer-maximilian-uQDRDqpYJHI-unsplash.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;  
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #e0f7fa; /* Azul claro para mayor contraste */
+    }
+    
+    /* Header */
+    header {
+        padding: 20px;
+    }
+    
+    /* Navigation Menu */
+    .nav-menu {
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        padding: 10px 20px;
+        margin: 0;
+    }
+    
+    .nav-menu li {
+        margin: 0 15px;
+    }
+    
+    .nav-menu a {
+        color: #e0f7fa; /* Azul claro */
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+    
+    .nav-menu a:hover {
+        color: #ff7043; /* Coral en hover */
+    }
+    
+    /* Profile Container */
+    .profile-container {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .imagen {
+        width: 160px;
+        height: 190px;
+        border-radius: 40%;
+        border: 5px solid #e0f7fa; /* Borde en azul claro */
+        margin-right: 20px;
+    }
+    
+    .nombre {
+        font-size: 24px;
+        margin: 0;
+        animation: pulse 1.5s infinite alternate;
+        text-shadow: 0 0 10px blue, 0 0 20px blue;
+    }
+    
+    /* Animación de pulsación */
+    @keyframes pulse {
+        0% {
+            text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px #fff;
+        }
+        100% {
+            text-shadow: 0 0 20px blue, 0 0 30px #fff, 0 0 40px blue;
+        }
+    }
+    
+    /* Main Styles */
+    main {
+        padding: 20px;
+    }
+    
+    /* Sections */
+    section {
+        background-color: rgba(25, 25, 25, 0.8); /* Fondo más oscuro */
+        border-radius: 8px;
+        padding: 15px;
+        margin: 20px 0;
+    }
+    
+    /* Section Headings */
+    section h2 {
+        color: #ffca28; /* Dorado cálido */
+        margin-top: 0;
+        text-align: center;
+        animation: pulse 1.5s infinite alternate;
+        text-shadow: 0 0 10px blue, 0 0 20px blue;
+    }
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    ul li {
+        margin: 10px 0;
+    }
+    
+    /* Blockquote */
+    blockquote {
+        font-style: italic;
+        color: #ccc; /* Gris claro para citas */
+        margin: 10px 0;
+        padding: 10px;
+        border-left: 5px solid #ffca28; /* Borde dorado */
+    }
+    
+    /* Footer */
+    footer {
+        text-align: center;
+        margin-top: 40px;
+        color: #e0f7fa; /* Azul claro */
+        padding: 10px 0;
+    }
+    
